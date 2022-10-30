@@ -10,17 +10,108 @@ body {
   line-height: 1.5;
 }
 
+.navbar { 
+display: flex;
+align-items: baseline;
+justify-content: space-between;
+}
+
+.aboutMeText,
+.images, 
+.contactMe{ 
+border-left: 3px solid black; 
+
+}
 /* Insert headline image */
 .hero-banner {
-  display: flex;
-  height: 300px ;
-  justify-content: right;
-  align-items: flex-end;
+  display: grid;
+  grid-area: content;
+  height: 250px ;
+  justify-content: left;
+  align-items: stretch;
 background-image: url(../images/02-hero-bg.jpg);
 }
 
+.hero-banner h2 {color: aliceblue;
+
+}
+
+#aboutMe {
+  display: grid;
+  grid-template-columns: 15% 85%;
+  grid-template-rows: 100%;
+  grid-template-areas: 'aboutMe aboutText';
+  align-items:flex-start;
+  justify-content: right;
+}
+
+.aboutMeText {
+  grid-area:aboutText;
+}
+
+#work {
+  display: grid;
+  grid-template-rows: 100%;
+  grid-template-columns: 15% 85%;
+  justify-content: center;
+  grid-template-areas: "work images"
+  ;
+ 
+}
+
+.images {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 25% 25%;
+  grid-template-areas: 'image image'
+  'image2 none';
+  grid-area:images;
+  
+}
+.image1 {
+grid-area: image;
+
+}
+.image1 h1 {   position: relative;
+  bottom:100px;
+  background-color: aqua;
+  width: 20%;
+  
+}
+
+.image2 h1 {
+  position: relative;
+  bottom:100px;
+  background-color: aqua;
+  width: 20%;
+  
+}
+
+.image3 h1 {
+  position: relative;
+  bottom:100px;
+  background-color: aqua;
+  width: 25%;
+  
+}
+
+.image4 h1 {
+  position: relative;
+  bottom:100px;
+  background-color: aqua;
+  width: 25%;
+}
+
+
+.image2 {
+grid-area: image2 ;
+}
+
+
+
 h1,
 h2,
+
 h3,
 h4,
 h5,
@@ -31,3 +122,12 @@ h6 {
 p {
   margin: 0;
 }
+
+#contact { 
+  display: grid;
+  grid-template-columns: 15% 85%;
+  grid-template-rows: 100%;
+  grid-template-areas: 'contact contactMe';
+  align-items: baseline;
+  justify-content: space-between;
+  }
