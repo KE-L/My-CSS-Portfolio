@@ -10,6 +10,15 @@ body {
   line-height: 1.5;
 }
 
+/* Insert headline image */
+.hero-banner {
+  display: flex;
+  height: 300px ;
+  justify-content: right;
+  align-items: flex-end;
+background-image: url(../images/02-hero-bg.jpg);
+}
+
 h1,
 h2,
 h3,
