@@ -29,13 +29,13 @@ https://ke-l.github.io/My-CSS-Portfolio/
 
 
 # Preview
-![127 0 0 1_5501_index html copy](https://user-images.githubusercontent.com/115717787/199068402-cca144bf-642c-4696-bf13-cc31374af72a.png)
+![127 0 0 1_5501_index html (1)](https://user-images.githubusercontent.com/115717787/199113624-5082feb8-62de-492a-94d0-daa432f95d26.png)
+
 
 
 # Contact:
 If you have any questions, please contact me at: 
 
   Github Profile: (https://github.com/KE-L)  
-  Email: kassy.g.e@hotmail.com
   
   LinkedIn:( https://www.linkedin.com/in/kassy-essiet-labukas-581a34122/)
