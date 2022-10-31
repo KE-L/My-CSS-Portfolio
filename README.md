@@ -39,5 +39,3 @@ If you have any questions, please contact me at:
   Email: kassy.g.e@hotmail.com
   
   LinkedIn:( https://www.linkedin.com/in/kassy-essiet-labukas-581a34122/)
-[image](https://user-images.githubusercontent.com/115717787/197624356-f4e3f1f8-366b-472c-ad09-0065dc9517d1.png)
-![image](https://user-images.githubusercontent.com/115717787/199064100-a332dffa-bf7a-4177-965f-0bcb09fcbaaa.png)
