@@ -8,21 +8,22 @@ The purpose of this project is to build a porfolio page. To illustrate my work &
 *Employing Flexbox techniques 
 *Employing CSS Grids 
 *Managing Media Quieries
-*Search engine optimisation.
+*Search engine optimisation
+*Anchor tags 
 
 
 # Project Requirements/Acceptance Criteria 
 * Page loads - name, a recent photo or avatar, and links to sections me, my work & how to contact me. 
 * Navgiational links function as expected. 
-* "Work" section contains titled application images. 
+* "Work" section contains titled application images.
 * Ensure page layout is responsive to various devices & viewpoints. 
+* Style page with CSS knowledge 
 
 
 # Challenges & Lessons:
-* Refactoring numerous CSS elements with assistance from Inspect in browser
-* Identifying errors in starter code 
-* Renaming & updating linked CSS 
-* Compounding multiple classes
+* Commiting to a HTML structure & approch to page layout 
+* Effectively naming claases & ids for streamlined design
+*Positioning elements inside grids.
 
 # Link 
 (https://ke-l.github.io/Kassy-Essiet-Module-1-Code-Refactoring/)

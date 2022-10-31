@@ -1,28 +1,37 @@
+@media screen and (max-width: 600px) {
+  .images {
+    width: 50%;
+    height: 50%;
+  }
+}
 
 * {
   box-sizing: border-box;
 }
-
+/* overiding styling for page */
 body {
+  background-color: azure !important;
+  color: #c5c5c5;
   margin: 0;
   padding: 0;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.5;
 }
-
+ /* navigational bar - layout & headline */
 .navbar { 
 display: flex;
 align-items: baseline;
 justify-content: space-between;
 }
-
+/* sidebar - styling & border */
 .aboutMeText,
+.work,
 .images, 
-.contactMe{ 
-border-left: 3px solid black; 
-
+.contactMe { 
+border-left: 3px solid rgb(220, 220, 228); 
 }
-/* Insert headline image */
+
+/* headline image - styling  */
 .hero-banner {
   display: grid;
   grid-area: content;
@@ -31,11 +40,10 @@ border-left: 3px solid black;
   align-items: stretch;
 background-image: url(../images/02-hero-bg.jpg);
 }
-
+/* ???? */
 .hero-banner h2 {color: aliceblue;
-
 }
-
+/* "about me' text - styling*/
 #aboutMe {
   display: grid;
   grid-template-columns: 15% 85%;
@@ -44,11 +52,10 @@ background-image: url(../images/02-hero-bg.jpg);
   align-items:flex-start;
   justify-content: right;
 }
-
 .aboutMeText {
   grid-area:aboutText;
 }
-
+/* images - styling: introduced grid for image placement */
 #work {
   display: grid;
   grid-template-rows: 100%;
@@ -56,78 +63,84 @@ background-image: url(../images/02-hero-bg.jpg);
   justify-content: center;
   grid-template-areas: "work images"
   ;
- 
 }
-
+/* images - enhancement  */
 .images {
+    background: gray;
+    border: 1px solid #c5c5c5;
+    float: right;
+    margin: 0 0 10px 10px;
+    padding: 3px;
+    touch-action:double-tap-zoom;
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: 50% 25% 25%;
   grid-template-areas: 'image image'
   'image2 none';
   grid-area:images;
-  
+ justify-content: space-between;
 }
-.image1 {
+.image1
+ {
 grid-area: image;
-
-}
-.image1 h1 {   position: relative;
-  bottom:100px;
-  background-color: aqua;
-  width: 20%;
-  
+border: #f0f8fa 5px solid;
 }
 
-.image2 h1 {
-  position: relative;
-  bottom:100px;
-  background-color: aqua;
-  width: 20%;
-  
+.image2, 
+.image3,
+.image4 {
+  border: #f0f8fa 5px solid;
 }
 
-.image3 h1 {
-  position: relative;
-  bottom:100px;
-  background-color: aqua;
-  width: 25%;
-  
-}
 
+.image1 h1, 
+.image2 h1, 
+.image3 h1, 
 .image4 h1 {
   position: relative;
   bottom:100px;
-  background-color: aqua;
-  width: 25%;
+  background-color: rgb(192, 226, 226);
+  width: 20%;  
 }
-
+/* Introduce hover element to images */
+.image1:hover
+a {
+  box-shadow: inset 0 0 0 0 #54b3d6;
+  color: #54b3d6;
+  margin: 0 -.25rem;
+  padding: 0 .25rem;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+a:hover {
+  box-shadow: inset 100px 0 0 0 #54b3d6;
+  color: white;
+}
 
 .image2 {
 grid-area: image2 ;
 }
 
 
-
+/* ?? */
 h1,
 h2,
-
 h3,
 h4,
 h5,
 h6 {
   margin: 0;
 }
-
 p {
   margin: 0;
 }
-
+/* "contact me" - layout & styling: introduced grid for placement */
 #contact { 
-  display: grid;
-  grid-template-columns: 15% 85%;
-  grid-template-rows: 100%;
-  grid-template-areas: 'contact contactMe';
-  align-items: baseline;
+  width: 100%;
+  display: flex;
+  align-items:stretch;
   justify-content: space-between;
+  }
+  .contactMe { 
+    display: flex;
+    justify-content: space-between;
   }
