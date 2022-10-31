@@ -25,12 +25,13 @@ The purpose of this project is to build a portfolio page. To illustrate my work 
 *Establishing correct media query parameters
 
 # Link 
-(https://ke-l.github.io/Kassy-Essiet-Module-1-Code-Refactoring/)
-================  
+https://ke-l.github.io/My-CSS-Portfolio/
+
+
 # Preview
 ![127 0 0 1_5501_index html copy](https://user-images.githubusercontent.com/115717787/199068402-cca144bf-642c-4696-bf13-cc31374af72a.png)
 
-=======
+
 # Contact:
 If you have any questions, please contact me at: 
 
