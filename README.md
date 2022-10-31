@@ -1,8 +1,15 @@
 # My-CSS-Portfolio
-My CSS Webpage 
+CSS Designed Webpage 
 
 # Description:
 The purpose of this project is to build a portfolio page. To illustrate my work & working processes. 
+
+# Project Requirements/Acceptance Criteria 
+* Page loads - name, a recent photo or avatar & how to contact me. 
+* Navigational links function as expected. 
+* "Work" section contains titled application images.
+* Ensure page layout is responsive to various devices & viewpoints. 
+* Style page with CSS knowledge 
 
 # Core ideas: 
 *Employing Flexbox techniques 
@@ -11,19 +18,11 @@ The purpose of this project is to build a portfolio page. To illustrate my work 
 *Search engine optimisation
 *Anchor tags 
 
-
-# Project Requirements/Acceptance Criteria 
-* Page loads - name, a recent photo or avatar, and links to sections me, my work & how to contact me. 
-* Navigational links function as expected. 
-* "Work" section contains titled application images.
-* Ensure page layout is responsive to various devices & viewpoints. 
-* Style page with CSS knowledge 
-
-
 # Challenges & Lessons:
 * Committing to a HTML structure & approach to page layout 
 * Effectively naming classes & ids for streamlined design
-*Positioning elements inside grids.
+*Positioning elements inside grids
+*Establishing correct media query parameters
 
 # Link 
 (https://ke-l.github.io/Kassy-Essiet-Module-1-Code-Refactoring/)
