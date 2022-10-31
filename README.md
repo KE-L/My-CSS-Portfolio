@@ -2,27 +2,27 @@
 My CSS Webpage 
 
 # Description:
-The purpose of this project is to build a porfolio page. To illustrate my work & working proceses. 
+The purpose of this project is to build a portfolio page. To illustrate my work & working processes. 
 
 # Core ideas: 
 *Employing Flexbox techniques 
 *Employing CSS Grids 
-*Managing Media Quieries
+*Managing Media Queries
 *Search engine optimisation
 *Anchor tags 
 
 
 # Project Requirements/Acceptance Criteria 
 * Page loads - name, a recent photo or avatar, and links to sections me, my work & how to contact me. 
-* Navgiational links function as expected. 
+* Navigational links function as expected. 
 * "Work" section contains titled application images.
 * Ensure page layout is responsive to various devices & viewpoints. 
 * Style page with CSS knowledge 
 
 
 # Challenges & Lessons:
-* Commiting to a HTML structure & approch to page layout 
-* Effectively naming claases & ids for streamlined design
+* Committing to a HTML structure & approach to page layout 
+* Effectively naming classes & ids for streamlined design
 *Positioning elements inside grids.
 
 # Link 
@@ -40,3 +40,4 @@ If you have any questions, please contact me at:
   
   LinkedIn:( https://www.linkedin.com/in/kassy-essiet-labukas-581a34122/)
 [image](https://user-images.githubusercontent.com/115717787/197624356-f4e3f1f8-366b-472c-ad09-0065dc9517d1.png)
+![image](https://user-images.githubusercontent.com/115717787/199064100-a332dffa-bf7a-4177-965f-0bcb09fcbaaa.png)
